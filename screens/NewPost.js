@@ -61,7 +61,7 @@ const NewPostScreen = () => {
   const [hasSearched, setHasSearched] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [description, setDescription] = useState("");
-  const key = "AIzaSyDRI5wZERbcmVUPzVlUvkg_QvZugcrff8Y";
+  const key = "";
   const searchPlaces = async (query) => {
     if (query.length < 3) return;
     setIsLoading(true);
